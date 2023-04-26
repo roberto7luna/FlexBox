@@ -49,6 +49,14 @@ hr {
     padding: 20px;
 }
 
+.nome-da-propriedade-verde {
+    font-size: 2em;
+    font-weight: 500px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(33, 112, 37);
+    padding: 20px;
+}
+
 .valor-da-propriedade {
     font-size: 1,5em;
     font-weight: 400px;
@@ -347,7 +355,7 @@ hr {
 
 .container-flexflow-row-nowrap {
     display: flex;
-    /*flex-direction: row; */
+    flex-direction: row; 
     justify-content: center;
     align-items: center;
     flex-flow: row nowrap;
@@ -408,7 +416,7 @@ hr {
 
 }
 
-.container-align-content-space-between- {
+.container-align-content-space-between {
     display: flex;
     flex-direction: row; 
     justify-content: center;
